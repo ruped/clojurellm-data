@@ -1,17 +1,17 @@
 # clojurellm-data
 Clojure LLM - Dataset curation for fine tuning an LLM for Clojure.
 
-| Dataset  | Location | Size |
-| ------------- | ------------- | ------------- |
-| Clojure email groups  | [data/clojure_mailgroup](/data/clojure_mailgroup) | N/A |
-| Clojurescript email groups  | [data/clojurescript_mailgroup](./data/clojurescript_mailgroup) | N/A |
-| Clojurians chat logs  | [data/clojurians_chat](./data/clojurians_chat)  | N/A |
-| Clojurians forum  | [data/clojurians_forum](./data/clojurians_forum)  | N/A |
-| General programming  | [data/general_programming](./data/general_programming)  | N/A |
-| Clojure/script Projects  | [data/projects](./data/projects)  | N/A |
-| Stackoverflow  | [data/stackoverflow](./data/stackoverflow)  | N/A |
-| Synthetic Clojure  | [data/synthetic](./data/synthetic)  | N/A |
-| Clojure web crawl  | [data/web_crawl](./data/web_crawl)  | N/A |
+| Dataset  | Location | Size | Launch Main | Launch Sample |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Clojure email groups  | [data/clojure_mailgroup](/data/clojure_mailgroup) | 25.31MB | clj -X:email-clojure-main | clj -X:email-clojure-sample |
+| Clojurescript email groups  | [data/clojurescript_mailgroup](./data/clojurescript_mailgroup) | 3.1MB | clj -X:email-clojurescript-main | clj -X:email-clojurescript-sample |
+| Clojurians chat logs  | [data/clojurians_chat](./data/clojurians_chat)  | N/A | N/A | N/A |
+| Clojurians forum  | [data/clojurians_forum](./data/clojurians_forum)  | N/A | N/A | N/A |
+| General programming  | [data/general_programming](./data/general_programming)  | N/A | N/A | N/A |
+| Clojure/script Projects  | [data/projects](./data/projects)  | N/A | N/A | N/A |
+| Stackoverflow  | [data/stackoverflow](./data/stackoverflow)  | N/A | N/A | N/A |
+| Synthetic Clojure  | [data/synthetic](./data/synthetic)  | N/A | N/A | N/A |
+| Clojure web crawl  | [data/web_crawl](./data/web_crawl)  | N/A | N/A | N/A |
 
 
 ## ClojureLLM Data Management Policy

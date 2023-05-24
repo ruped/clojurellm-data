@@ -1,0 +1,15 @@
+{:deps
+ {skyscraper/skyscraper {:mvn/version "0.3.4"}
+  enlive/enlive         {:mvn/version "1.1.6"}
+  reaver/reaver         {:mvn/version "0.1.3"}
+  net.clojars.john/injest {:mvn/version "0.1.0-beta.8"}
+  org.clojure/data.json {:mvn/version "2.4.0"}}
+ :aliases
+ {:email-clojure-main
+  {:exec-fn clojure-llm.collect.email-groups.clojure/-main}
+  :email-clojure-sample
+  {:exec-fn clojure-llm.collect.email-groups.clojure/-sample-main}
+  :email-clojurescript-main
+  {:exec-fn clojure-llm.collect.email-groups.clojurescript/-main}
+  :email-clojurescript-sample
+  {:exec-fn clojure-llm.collect.email-groups.clojurescript/-sample-main}}}
