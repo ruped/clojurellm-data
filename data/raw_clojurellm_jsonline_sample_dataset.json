@@ -1,0 +1,5 @@
+[
+{"instruction": "Create an vector of length 5 which contains all even numbers between 1 and 10.", "input": "", "output": "(def v [2 4 6 8 10])"},
+{"instruction": "Formulate an equation to calculate the height of a triangle given the angle, side lengths and opposite side length.", "input": "", "output": "Height of triangle = opposite side length * sin (angle) / side length" },
+{"instruction": "A number is \"perfect\" if the sum of its divisors equal the number itself.  6 is a perfect number because 1+2+3=6.  Write a function which returns true for perfect numbers and false otherwise.", "input": "", "output": "(fn [n]\n  (= n \n     (reduce + (filter #(= 0 (mod n %)) (map inc (range (- n 1))))))\n  )" }
+]
